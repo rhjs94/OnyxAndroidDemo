@@ -3,8 +3,8 @@ package com.android.onyx.demo;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -14,8 +14,8 @@ import android.widget.TextView;
 
 import androidx.databinding.DataBindingUtil;
 
-import com.onyx.android.demo.R;
-import com.onyx.android.demo.databinding.ActivityDictqueryBinding;
+import com.android.onyx.demo.R;
+import com.android.onyx.demo.databinding.ActivityDictqueryBinding;
 import com.onyx.android.sdk.data.DictionaryQuery;
 import com.onyx.android.sdk.utils.DictionaryUtil;
 
@@ -86,3 +86,4 @@ public class DictionaryActivity extends AppCompatActivity {
         }
     }
 }
+

@@ -2,13 +2,13 @@ package com.android.onyx.demo;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 
 import androidx.databinding.DataBindingUtil;
 
-import com.onyx.android.demo.R;
-import com.onyx.android.demo.databinding.ActivityMainBinding;
+import com.android.onyx.demo.R;
+import com.android.onyx.demo.databinding.ActivityMainBinding;
 import com.onyx.android.sdk.api.device.epd.EpdController;
 
 
@@ -85,3 +85,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
+

@@ -16,13 +16,12 @@ buildscript {
 
 allprojects {
     repositories {
+        google()
+        mavenCentral()
         maven { url 'https://repo.boox.com/repository/proxy-public/' }
         maven {
             url "https://repo.boox.com/repository/maven-public/"
         }
-
-        google()
-        mavenCentral()
         maven { url "https://jitpack.io" }
     }
 }

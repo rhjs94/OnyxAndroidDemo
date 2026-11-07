@@ -1,15 +1,15 @@
 package com.android.onyx.demo;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
 
 
 import androidx.databinding.DataBindingUtil;
 
-import com.onyx.android.demo.R;
-import com.onyx.android.demo.databinding.ActivityEpdDemoBinding;
+import com.android.onyx.demo.R;
+import com.android.onyx.demo.databinding.ActivityEpdDemoBinding;
 import com.onyx.android.sdk.api.device.EpdDeviceManager;
 import com.onyx.android.sdk.api.device.epd.EpdController;
 import com.onyx.android.sdk.api.device.epd.UpdateMode;
@@ -67,3 +67,4 @@ public class EpdDemoActivity extends AppCompatActivity {
         binding.textview.setText(sb.toString());
     }
 }
+
