@@ -11,22 +11,42 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
 
-        <activity android:name=".ui.MainActivity">
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
 
-        <activity android:name=".ui.PenDemoActivity"/>
-        <activity android:name=".scribble.ui.ScribbleDemoActivity"/>
-        <activity android:name=".scribble.ui.ScribbleMoveEraserDemoActivity"/>
-        <activity android:name=".scribble.ui.ScribbleMultipleScribbleViewActivity"/>
-        <activity android:name=".scribble.ui.ScribbleTouchHelperDemoActivity"/>
-        <activity android:name=".scribble.ui.ScribbleFingerTouchDemoActivity"/>
-        <activity android:name=".scribble.ui.ScribbleWebViewDemoActivity"/>
-        <activity android:name=".scribble.ui.ScribblePenUpRefreshDemoActivity"/>
-        <activity android:name=".scribble.ui.ScribbleEpdControllerDemoActivity"/>
+        <activity
+            android:name=".ui.PenDemoActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".scribble.ui.ScribbleDemoActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".scribble.ui.ScribbleMoveEraserDemoActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".scribble.ui.ScribbleMultipleScribbleViewActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".scribble.ui.ScribbleTouchHelperDemoActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".scribble.ui.ScribbleFingerTouchDemoActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".scribble.ui.ScribbleWebViewDemoActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".scribble.ui.ScribblePenUpRefreshDemoActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".scribble.ui.ScribbleEpdControllerDemoActivity"
+            android:exported="false"/>
 
     </application>
 
